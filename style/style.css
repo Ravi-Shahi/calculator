@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EDEDED;
+}
+
+h1 {
+    text-align: center;
+    background-color: #1746A2;
+    color: aliceblue;
+    padding: 30px;
+    margin: 0;
+}
+
+.cal-body {
+    width: 300px;
+    height: 350px;
+    background-color: #5F9DF7;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 80px auto;
+    display: relative;
+}
+
+.cal-display {
+    font-size: 20px;
+    width: 236px;
+    height: 50px;
+    margin: 15px 0;
+    position: relative;
+    left: 27px;
+    padding-left: 5px;
+    background-color: black;
+    color: white;
+}
+
+.cal-btn {
+    width: 55px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.btn-equal {
+    height: 96px;
+}
+
+.btn-zero {
+    width: 116px;
+}

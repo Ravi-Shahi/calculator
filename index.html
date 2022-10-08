@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi's Calculator</title>
+    <link rel="icon" href="icon/cal.ico">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <h1>Calculator v0.1 | 08-10-2022</h1>
+    <div class="cal-body">
+        <form name="form1">
+            <input class="cal-display" name="cal_display">
+        </form>
+        <center>
+            <table>
+                <tr>
+                    <td><input class="cal-btn" type="button" onclick="reset()" value="C"></td>
+                    <td><input class="cal-btn" type="button" onclick="del()" value="B"></td>
+                    <td><input class="cal-btn" type="button" onclick="insert('/')" value="÷"></td>
+                    <td><input class="cal-btn" type="button" onclick="insert('*')" value="x"></td>
+                </tr>
+                <tr>
+                    <td><input class="cal-btn" type="button" onclick="insert(7)" value="7"></td>
+                    <td><input class="cal-btn" type="button" onclick="insert(8)" value="8"></td>
+                    <td><input class="cal-btn" type="button" onclick="insert(9)" value="9"></td>
+                    <td><input class="cal-btn" type="button" onclick="insert('-')" value="-"></td>
+                </tr>
+                <tr>
+                    <td><input class="cal-btn" type="button" onclick="insert(4)" value="4"></td>
+                    <td><input class="cal-btn" type="button" onclick="insert(5)" value="5"></td>
+                    <td><input class="cal-btn" type="button" onclick="insert(6)" value="6"></td>
+                    <td><input class="cal-btn" type="button" onclick="insert('+')" value="+"></td>
+                </tr>
+                <tr>
+                    <td><input class="cal-btn" type="button" onclick="insert(1)" value="1"></td>
+                    <td><input class="cal-btn" type="button" onclick="insert(2)" value="2"></td>
+                    <td><input class="cal-btn" type="button" onclick="insert(3)" value="3"></td>
+                    <td rowspan="2"><input class="cal-btn btn-equal" type="button" onclick="calculate()" value="="></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input class="cal-btn btn-zero" type="button" onclick="insert(0)" value="0"></td>
+                    <td><input class="cal-btn" type="button" onclick="insert('.')" value="."></td>
+
+                </tr>
+            </table>
+        </center>
+    </div>
+
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
